@@ -13,32 +13,53 @@ import chicago from "../assets/img/chicago.jpg"
 import europe from "../assets/img/europe.jpg"
 import iceland from "../assets/img/iceland.jpg"
 
-
-export const IMAGES = [
+export const RECOMENDATIONS = [
   {
-    title: 'Norway',
+    title: "Norway",
     image: norway,
-    description: 'Beautiful lanscapes',
+    description: "Beautiful lanscapes",
   },
   {
-    title: 'New York',
-    image:new_york,
-    description: 'Concrete Jungle',
+    title: "New York",
+    image: new_york,
+    description: "Concrete Jungle",
   },
   {
-    title: 'Yosemite',
-    image:yosemite,
-    description: 'A break from the world',
+    title: "Yosemite",
+    image: yosemite,
+    description: "A break from the world",
   },
   {
-    title: 'Seattle',
-    image:seattle,
-    description: 'Big city',
+    title: "Seattle",
+    image: seattle,
+    description: "Big city",
   },
   {
-    title: 'Switzerland',
-    image:switzerland,
-    description: 'Big city',
+    title: "Switzerland",
+    image: switzerland,
+    description: "Big city",
   },
+]
 
+export const TRENDINGS = [
+  {
+    title: "Chicago",
+    image: chicago,
+    description: "2 rooms, bathroom and kitchen",
+  },
+  {
+    title: "Los Angeles",
+    image: LA,
+    description: "4 rooms, 3 bathrooms, kitchen and private pool",
+  },
+  {
+    title: "Miami",
+    image: miami,
+    description: "3 rooms, 2 bathrooms,  kitchen and amazing sea view",
+  },
+  {
+    title: "Bali",
+    image: bali,
+    description: "2 rooms, 2 bathrooms,  kitchen and private pool.",
+  },
 ]
