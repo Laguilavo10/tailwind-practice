@@ -1,32 +1,43 @@
-export const RECOMENDATIONS = [
+import sanFrancisco from "../assets/img/sanFrancisco.jpg"
+import sanFranciscoDesktop from "../assets/img/sanFranciscoDesktop.jpg"
+import yosemite from "../assets/img/yosemite.jpg"
+import LA from "../assets/img/LA.jpg"
+import seattle from "../assets/img/seattle.jpg"
+import new_york from "../assets/img/new_york.jpg"
+import norway from "../assets/img/norway.jpg"
+import sydney from "../assets/img/sydney.jpg"
+import miami from "../assets/img/miami.jpg"
+import switzerland from "../assets/img/switzerland.jpg"
+import bali from "../assets/img/bali.jpg"
+import chicago from "../assets/img/chicago.jpg"
+import europe from "../assets/img/europe.jpg"
+import iceland from "../assets/img/iceland.jpg"
+
+
+export const IMAGES = [
   {
     title: 'Norway',
-    image: 'https://i.pinimg.com/170x/57/39/91/57399153da127ac6fe1d88512443bf3f.jpg',
+    image: norway,
     description: 'Beautiful lanscapes',
   },
   {
     title: 'New York',
-    image: 'https://i.pinimg.com/170x/57/39/91/57399153da127ac6fe1d88512443bf3f.jpg',
+    image:new_york,
     description: 'Concrete Jungle',
   },
   {
-    title: 'Norway',
-    image: 'https://i.pinimg.com/170x/57/39/91/57399153da127ac6fe1d88512443bf3f.jpg',
-    description: 'Beautiful lanscapes',
-  },
-  {
     title: 'Yosemite',
-    image: 'https://i.pinimg.com/170x/57/39/91/57399153da127ac6fe1d88512443bf3f.jpg',
+    image:yosemite,
     description: 'A break from the world',
   },
   {
     title: 'Seattle',
-    image: 'https://i.pinimg.com/170x/57/39/91/57399153da127ac6fe1d88512443bf3f.jpg',
+    image:seattle,
     description: 'Big city',
   },
   {
     title: 'Switzerland',
-    image: 'https://i.pinimg.com/170x/57/39/91/57399153da127ac6fe1d88512443bf3f.jpg',
+    image:switzerland,
     description: 'Big city',
   },
 
