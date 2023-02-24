@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
+import { AboutUs } from './components/AboutUs'
 import { Banner } from './components/Banner'
 import { FAQS } from './components/FAQS'
 import { Header } from './components/Header'
@@ -12,11 +13,12 @@ function App() {
 
   return (
     <>
-    <Header/>
+    {/* <Header/> */}
     <Banner/>
     <Slider/>
     <Trending/>
     <FAQS/>
+    <AboutUs/>
     </>
   )
 }
