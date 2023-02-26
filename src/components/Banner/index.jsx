@@ -6,7 +6,7 @@ export function Banner() {
 
   return (
     <>
-      <div className="relative h-[calc(100vh_-_75px)] flex flex-col justify-center p-12 ">
+      <div id="main" className="relative h-[calc(100vh_-_75px)] flex flex-col justify-center p-12 ">
         <img
           src={bannerUrl}
           alt="banner"

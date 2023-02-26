@@ -10,6 +10,11 @@ module.exports = {
       montserrat: ['Montserrat', 'sans-serif']
     },
 
+    textColor: (theme) => ({
+      ...theme('colors'),
+      redBrand: "#CC2D4A"
+    }),
+
     extend: {},
   },
   plugins: [],
