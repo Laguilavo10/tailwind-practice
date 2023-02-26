@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { SearchSVG } from "../Icons"
 
 export function Banner() {
   let bannerUrl =
@@ -6,20 +7,30 @@ export function Banner() {
 
   return (
     <>
-      <div id="main" className="relative h-[calc(100vh_-_75px)] flex flex-col justify-center p-12 ">
+      <div
+        id="main"
+        className="relative flex h-[calc(100vh_-_75px)] flex-col justify-center p-12 max-sm:items-center max-sm:justify-between"
+      >
         <img
           src={bannerUrl}
           alt="banner"
-          className="absolute top-0 h-full w-full object-cover object-left-top left-0"
+          className="absolute top-0 left-0 h-full w-full object-cover object-left-top"
         />
         {/* <div className="flex flex-col gap-4 justify-center "> */}
-          <h1 className="text-3xl relative z-10 font-extrabold tracking-wider flex flex-col font-montserrat">
-            Find More Locations <span className="">like this</span>
-            
-          </h1>
-          <button className=" w-fit relative z-10 rounded-full bg-white py-2 px-6 shadow-lg mt-8 text">
-            Explore More
-          </button>
+        <h1 className="relative z-10 flex flex-col font-montserrat text-3xl font-extrabold tracking-wider max-sm:hidden">
+          Find More Locations <span className="">like this</span>
+        </h1>
+        <div className="relative flex w-full justify-center gap-3 rounded-3xl bg-white py-4 px-2 sm:hidden">
+          {SearchSVG(true)}
+          <input
+            type="text"
+            placeholder="San Francisco"
+            className="w-full max-w-[150px] outline-none"
+          />
+        </div>
+        <button className="text relative z-10 mt-8 w-fit rounded-full bg-white py-4 px-6 text-redBrand shadow-lg">
+          Explore More
+        </button>
         {/* </div> */}
       </div>
     </>
