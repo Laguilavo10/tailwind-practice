@@ -20,7 +20,7 @@ export function Banner() {
         <h1 className="relative z-10 flex flex-col font-montserrat text-3xl font-extrabold tracking-wider max-sm:hidden">
           Find More Locations <span className="">like this</span>
         </h1>
-        <div className="relative flex w-full justify-center gap-3 rounded-3xl bg-white py-4 px-2 sm:hidden">
+        <div className="relative flex w-full justify-center gap-3 rounded-3xl bg-white py-4 px-2 sm:hidden max-sm:shadow-2xl">
           {SearchSVG(true)}
           <input
             type="text"
@@ -28,7 +28,7 @@ export function Banner() {
             className="w-full max-w-[150px] outline-none"
           />
         </div>
-        <button className="text relative z-10 mt-8 w-fit rounded-full bg-white py-4 px-6 text-redBrand shadow-lg">
+        <button className="text relative z-10 mt-8 w-fit rounded-full bg-white py-4 px-6 text-primary shadow-lg">
           Explore More
         </button>
         {/* </div> */}
