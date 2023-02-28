@@ -14,7 +14,7 @@ export function Banner() {
         <img
           src={bannerUrl}
           alt="banner"
-          className="absolute top-0 left-0 h-full w-full object-cover object-left-top"
+          className="absolute top-0 left-0 h-full w-full object-cover object-center"
         />
         {/* <div className="flex flex-col gap-4 justify-center "> */}
         <h1 className="relative z-10 flex flex-col font-montserrat text-3xl font-extrabold tracking-wider max-sm:hidden">
