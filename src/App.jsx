@@ -1,5 +1,6 @@
 import { AboutUs } from "./components/AboutUs"
 import { Banner } from "./components/Banner"
+import { DarkMode } from "./components/DarkMode"
 import { FAQS } from "./components/FAQS"
 import { Header } from "./components/Header"
 import { NavBar } from "./components/NavBar"
@@ -9,8 +10,12 @@ import { Trending } from "./Trending"
 function App() {
   return (
     <>
-      <Header />
-      <Banner />
+      <Header>
+      </Header>
+        <DarkMode/>
+      <Banner>
+        {/* <DarkMode/> */}
+      </Banner>
       <Recomendations />
       <Trending />
       <FAQS />
