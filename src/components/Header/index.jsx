@@ -4,7 +4,7 @@ import { SearchSVG, UserSVG } from "../Icons"
 export function Header() {
   return (
     <>
-      <header className="max-sm:hidden flex justify-between p-[25px] font-bold text-white">
+      <header className="flex justify-between p-[25px] font-bold text-white max-sm:hidden">
         <div className="flex">Platzi Travel</div>
         <ul className="flex gap-5">
           <li>Locations</li>
@@ -13,8 +13,8 @@ export function Header() {
           <li>AboutUs</li>
         </ul>
         <div className="flex gap-5">
-          {SearchSVG()}
-          {UserSVG()}
+          <a className="cursor-pointer" href="#recomendations">{SearchSVG(true)}</a>
+          {/* <a className="cursor-pointer" href="#recomendations">{UserSVG(true)}</a> */}
         </div>
       </header>
     </>

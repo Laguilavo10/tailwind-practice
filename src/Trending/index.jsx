@@ -2,17 +2,17 @@ import { useState } from "react"
 import { TRENDINGS } from "../utils/Recomendations"
 export function Trending() {
   const positions = [
-    "sm:row-start-1 sm:row-end-2 sm:col-start-1 sm:col-end-4",
-    "sm:row-start-2 sm:row-end-4 sm:col-start-1 sm:col-end-2",
-    "sm:row-start-2 sm:row-end-3 sm:col-start-2 sm:col-end-4",
-    "sm:row-start-3 sm:row-end-4 sm:col-start-2 sm:col-end-4",
+    "md:row-start-1 md:row-end-2 md:col-start-1 md:col-end-4",
+    "md:row-start-2 md:row-end-4 md:col-start-1 md:col-end-2",
+    "md:row-start-2 md:row-end-3 md:col-start-2 md:col-end-4",
+    "md:row-start-3 md:row-end-4 md:col-start-2 md:col-end-4",
   ]
 
   return (
     <>
       <section id="trendings" className="text-4xl text-white">
         <h2 className="p-11 text-primary ">Trending Stays</h2>
-        <ul className="grid auto-rows-[400px] grid-cols-1 gap-12 px-9 sm:auto-rows-[350px] sm:grid-cols-3 ">
+        <ul className="grid auto-rows-[400px] grid-cols-1 gap-12 px-9 md:auto-rows-[350px] md:grid-cols-3 md:gap-5 ">
           {TRENDINGS.map((card, i) => {
             let position = positions[i]
             return (
